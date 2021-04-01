@@ -1,11 +1,10 @@
 # Hyperion Docs
 Welcome to our docs Github repository. In this repo, you are able to use our docs template if you want to create your own docs site.
 
-These are the technologies we are using for our docs site : 
+These are the technologies we are using for our docs site and still under consideration : 
 - Node.js
 - Gatsby.js
-- Tailwind CSS (Under consideration)
-> Any changes or adding another technologies will be updated soon
+- Tailwind CSS
 
 **Hyperion Docs** © [SleepNov4](https://github.com/sleepnov4).
 
