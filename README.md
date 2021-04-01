@@ -6,6 +6,6 @@ These are the technologies we are using for our docs site and still under consid
 - Gatsby.js
 - Tailwind CSS
 
-**Hyperion Docs** © [SleepNov4](https://github.com/sleepnov4).
+**Hyperion Docs** © [Hyperion Foundation](https://github.com/hyperion-foundation).
 
 This repo is maintained by me (SleepNov4) and the Hyperion Dev Team.
