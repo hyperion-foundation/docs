@@ -7,4 +7,5 @@ These are the technologies we are using for our docs site :
 > Any changes or adding another technologies will be updated soon
 
 **Hyperion Docs** © [SleepNov4](https://github.com/sleepnov4).
+
 This repo is maintained by me (SleepNov4) and the Hyperion Dev Team.
