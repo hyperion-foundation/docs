@@ -4,6 +4,7 @@ Welcome to our docs Github repository. In this repo, you are able to use our doc
 These are the technologies we are using for our docs site : 
 - Node.js
 - Gatsby.js
+- Tailwind CSS (Under considered)
 > Any changes or adding another technologies will be updated soon
 
 **Hyperion Docs** © [SleepNov4](https://github.com/sleepnov4).
