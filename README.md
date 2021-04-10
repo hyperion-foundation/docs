@@ -2,6 +2,7 @@
 Welcome to our docs Github repository. In this repo, you are able to make changes our docs by forking this repo.
 
 These are the technologies we are using for our docs site : 
+- Node.js
 - Vuepress
 - Netlify
 
