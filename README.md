@@ -1,10 +1,9 @@
 # Hyperion Docs
-Welcome to our docs Github repository. In this repo, you are able to use our docs template if you want to create your own docs site.
+Welcome to our docs Github repository. In this repo, you are able to make changes our docs by forking this repo.
 
-These are the technologies we are using for our docs site and still under consideration : 
-- Node.js
-- Gatsby.js
-- Tailwind CSS
+These are the technologies we are using for our docs site : 
+- Vuepress
+- Netlify
 
 **Hyperion Docs** © [Hyperion Foundation](https://github.com/hyperion-foundation).
 
