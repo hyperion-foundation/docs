@@ -1,7 +1,7 @@
 # Hyperion Landing Website
 The dev builds for Hyperion Foundation landing website.
 ## What we use / Tech stack
-In this repo, we build the landing website using **Gatsby.js** and this repo was created for a development branch version. We will create another repo for the stable branch version.
+In this branch ([dev](https://github.com/hyperion-foundation/landing/tree/dev)), we build the landing website using **Gatsby.js** and this branch was created for a development, so bugs will be more expected to appear and all codes in this branch 100% cannot be used for live version. We will push to **master** branch if necessary and **master** branch meant to be a stable version of the landing website.
 ## Contributing
 We always welcome to everyone who wants to contribute our project. Keep in mind, if you want to contribute in this project, please join this [Discord](https://discord.gg/B6dSRjs) server first, then give us a ping in **#general** channel and also tell us what will you do before we accept you to be our contributor of the project. We want the landing site made as simple as possible. If you have any design mock-ups, don't hesitate to send it to us, we'd like to see any creativity you have but don't be sad if your design got rejected by us.
 ## Future update
