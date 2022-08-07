@@ -1,7 +1,7 @@
 # Hyperion Landing Website
 The official landing website for Hyperion Foundation.
 ## What we use / Tech stack
-Our landing website is made by only using **Bootstrap 5 (v5.1)**. For better improvements, we may use **React** in the future.
+The current landing website is built using **Bootstrap 5 (v5.1)** and the current development landing website, we build the landing website using **Gatsby.js**. You can see the codes on the [dev](https://github.com/hyperion-foundation/landing/tree/dev) branch.
 ## Contributing
 We always welcome to everyone who wants to contribute our project. Keep in mind, if you want to contribute in this project, please join this [Discord](https://discord.gg/B6dSRjs) server first, then give us a ping in **#general** channel and also tell us what will you do before we accept you to be our contributor of the project. We want the landing site made as simple as possible. If you have any design mock-ups, don't hesitate to send it to us, we'd like to see any creativity you have but don't be sad if your design got rejected by us.
 ## Future update
