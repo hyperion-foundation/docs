@@ -1,12 +1,54 @@
-# Hyperion Landing Website
-The official landing website for Hyperion Foundation.
-## What we use / Tech stack
-Our landing website is made by only using **Bootstrap 5 (v5.1)**. For better improvements, we may use **React** in the future.
-## Contributing
-We always welcome to everyone who wants to contribute our project. Keep in mind, if you want to contribute in this project, please join this [Discord](https://discord.gg/B6dSRjs) server first, then give us a ping in **#general** channel and also tell us what will you do before we accept you to be our contributor of the project. We want the landing site made as simple as possible. If you have any design mock-ups, don't hesitate to send it to us, we'd like to see any creativity you have but don't be sad if your design got rejected by us.
-## Future update
-These are the list for future update for this project :
-- Adding localization (English & Indonesian)
-## Help
-As we said before, you should join our [Discord](https://discord.gg/B6dSRjs) server and then you can communicate with us if you need help with the current project. For any issue related to the project, you can create [an new issue](https://github.com/hyperion-foundation/landing/issues) but before you create an issue, please **make sure you search first** to ensure your current issue is already created by others or not.
-> Disclaimer : We don't use any other communication platform except Discord.
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
+
+## 🚀 Quick start
+
+1.  **Create a Gatsby site.**
+
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
+
+2.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
+
+3.  **Open the code and start customizing!**
+
+    Your site is now running at http://localhost:8000!
+
+    Edit `src/pages/index.js` to see your site update in real-time!
+
+4.  **Learn more**
+
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
