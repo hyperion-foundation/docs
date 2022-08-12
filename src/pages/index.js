@@ -1,5 +1,5 @@
 import * as React from "react"
-import "src/css/bootstrap.min.css"
+import "/src/css/bootstrap.min.css"
 
 // const pageStyles = {
 //   color: "#232129",
