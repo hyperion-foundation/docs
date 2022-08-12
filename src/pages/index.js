@@ -208,6 +208,6 @@ const navbar = () => {
 }
 
 // export default IndexPage
-export default { alert, navbar}
+export default { alert, navbar }
 
 export const Head = () => <title>Hyperion Foundation</title>

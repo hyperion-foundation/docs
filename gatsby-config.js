@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Hyperion Foundation`,
+    siteUrl: `https://dev-landing.hyperfoundation.xyz`,
   },
   plugins: [],
 }
