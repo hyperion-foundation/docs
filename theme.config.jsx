@@ -27,7 +27,7 @@ export default {
     banner: {
       dismissible: false,
       key: 'Under heavy development',
-      text: '🚧 The site is under heavy development 🚧'
+      text: '🚧 The website is under heavy development 🚧'
     },
     search: {
       component: null
