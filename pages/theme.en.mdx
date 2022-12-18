@@ -1,0 +1,18 @@
+#### Change the site theme
+Use the slider to change the site theme
+<div className='flex items-center gap-2 mt-4 h-6'><input type="range" min="0" max="360" step="1" onChange={e => {
+  const hue = e.target.value
+  document.documentElement.style.setProperty('--nextra-primary-hue', hue + 'deg')
+  document.getElementById('test-theme-hue').innerText = hue
+}} /><code id="test-theme-hue" className="text-sm text-gray-500"></code></div>
+
+#### Real-time Preview ➡️ [Preview](https://www.youtube.com/watch?v=QH2-TGUlwu4)
+
+#### How the Real-Time Theme Color Changer works
+```html
+<div className='flex items-center gap-2 mt-4 h-6'><input type="range" min="0" max="360" step="1" onChange={e => {
+  const hue = e.target.value
+  document.documentElement.style.setProperty('--nextra-primary-hue', hue + 'deg')
+  document.getElementById('test-theme-hue').innerText = hue
+}} /><code id="test-theme-hue" className="text-sm text-gray-500"></code></div>
+```
