@@ -1,0 +1,24 @@
+{
+    "index": {
+      "title": "Home"
+    },
+    "information": "Informasi Komunitas",
+    "project": "Project Komunitas",
+    "--": {
+      "type": "separator",
+      "title": "Discord"
+    },
+    "discord-rules": "Peraturan Server",
+    "server-list": "Daftar Server",
+    "custom-channel": "Custom Channel",
+    "---": {
+      "type": "separator",
+      "title": "Lain-lain"
+    },
+    "theme": "Warna Tema Situs",
+    "change-logs": "Perubahan Situs",
+    "about": {
+      "title": "Tentang",
+      "type": "page"
+    }
+}

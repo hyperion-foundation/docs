@@ -1,22 +1,22 @@
 {
-  "name": "landing-gatsby",
-  "version": "1.0.0",
+  "name": "hyperion-docs",
+  "version": "0.1.0-dev",
   "private": true,
-  "description": "landing-gatsby",
-  "author": "Alexander Andhika S.",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "gatsby": "^4.20.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "@next/font": "13.0.7",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "next": "13.0.7",
+    "nextra": "^2.0.1",
+    "nextra-theme-docs": "^2.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6"
   }
 }
