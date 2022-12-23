@@ -61,7 +61,7 @@ export default {
     },
     footer: {
      text: <span>
-      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • dev (Unstable)
+      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Channel (Unstable)
      </span> 
     }
 }
