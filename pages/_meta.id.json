@@ -17,6 +17,7 @@
     },
     "theme": "Warna Tema Situs",
     "change-logs": "Catatan Perubahan Situs",
+    "status": "Status Layanan",
     "about": {
       "title": "Tentang",
       "type": "page"

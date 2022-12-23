@@ -17,6 +17,7 @@
     },
     "theme": "Site Theme Color",
     "change-logs": "Site Change Logs",
+    "status": "Service Status",
     "about": {
       "title": "About",
       "type": "page"

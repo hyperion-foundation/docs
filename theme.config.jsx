@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 import logo from './styles/style.js'
 import React from 'react'
+import Script from 'next/script'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 
@@ -18,6 +19,7 @@ export default {
         <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
         <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <title>Hyperion Foundation</title>
+        <Script src="https://hyperionfoundation.statuspage.io/embed/script.js" />
       </>
     },
     i18n: [
