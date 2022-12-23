@@ -1,3 +1,11 @@
 import Script from 'next/script'
 
-<Script src="https://hyperionfoundation.statuspage.io/embed/script.js" />
+function script() {
+    return (
+        <>
+        <Script src="https://hyperionfoundation.statuspage.io/embed/script.js" />
+        </>
+    )
+}
+
+export default script
