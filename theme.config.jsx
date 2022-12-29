@@ -26,8 +26,8 @@ export default {
     ],
     banner: {
       dismissible: false,
-      key: 'Under heavy development',
-      text: '🚧 The site is under heavy development 🚧'
+      key: 'Testing Purposes',
+      text: '👨‍🔧 This website is hosted for testing purposes only 👨‍🔧'
     },
     search: {
       component: null

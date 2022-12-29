@@ -17,9 +17,18 @@
     },
     "theme": "Site Theme Color",
     "change-logs": "Site Change Logs",
-    "status": "Service Status",
     "about": {
       "title": "About",
+      "type": "page"
+    },
+    "status": {
+      "title": "Status",
+      "type": "page",
+      "href": "https://hyperionfoundation.statuspage.io",
+      "newWindow": true
+    },
+    "support": {
+      "title": "Support Us",
       "type": "page"
     }
 }

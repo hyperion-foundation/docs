@@ -17,9 +17,18 @@
     },
     "theme": "Warna Tema Situs",
     "change-logs": "Catatan Perubahan Situs",
-    "status": "Status Layanan",
     "about": {
       "title": "Tentang",
+      "type": "page"
+    },
+    "status": {
+      "title": "Status",
+      "type": "page",
+      "href": "https://hyperionfoundation.statuspage.io",
+      "newWindow": true
+    },
+    "support": {
+      "title": "Dukung Kami",
       "type": "page"
     }
 }
