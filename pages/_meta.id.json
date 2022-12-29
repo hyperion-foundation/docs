@@ -1,4 +1,8 @@
 {
+    "-": {
+      "type": "separator",
+      "title": "Utama"
+    },
     "index": {
       "title": "Home"
     },
