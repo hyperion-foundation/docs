@@ -28,4 +28,5 @@ const AnimatedGradientText = styled.span`
   background-size: 300%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 `;
