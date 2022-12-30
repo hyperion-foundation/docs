@@ -24,16 +24,11 @@ export default {
       { locale: 'en', text: 'English' },
       { locale: 'id', text: 'Indonesian' }
     ],
-    banner: {
-      dismissible: false,
-<<<<<<< HEAD
-      key: 'Testing Purposes',
-      text: '👨‍🔧 This website is hosted for testing purposes only 👨‍🔧'
-=======
-      key: 'Under heavy development',
-      text: '🚧 The website is under heavy development 🚧'
->>>>>>> master
-    },
+    // banner: {
+    //   dismissible: false,
+    //   key: 'Under heavy development',
+    //   text: '🚧 The website is under heavy development 🚧'
+    // },
     search: {
       component: null
     },
@@ -66,14 +61,7 @@ export default {
     },
     footer: {
      text: <span>
-<<<<<<< HEAD
-      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Channel (Unstable)
-     </span> 
-    }
-}
-=======
-      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • 0.1.0-beta
+      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • 0.1.0-pre-release.0
      </span> 
     }
   }
->>>>>>> master
