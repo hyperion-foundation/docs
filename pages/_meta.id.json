@@ -1,8 +1,11 @@
 {
+<<<<<<< HEAD
     "-": {
       "type": "separator",
       "title": "Utama"
     },
+=======
+>>>>>>> master
     "index": {
       "title": "Home"
     },
@@ -20,6 +23,7 @@
       "title": "Lain-lain"
     },
     "theme": "Warna Tema Situs",
+<<<<<<< HEAD
     "change-logs": "Catatan Perubahan Situs",
     "about": {
       "title": "Tentang",
@@ -34,5 +38,11 @@
     "support": {
       "title": "Dukung Kami",
       "type": "page"
+=======
+    "change-logs": "Perubahan Situs",
+    "about": {
+      "title": "Tentang",
+      "type": "page"
+>>>>>>> master
     }
 }
