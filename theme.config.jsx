@@ -24,11 +24,11 @@ export default {
       { locale: 'en', text: 'English' },
       { locale: 'id', text: 'Indonesian' }
     ],
-    // banner: {
-    //   dismissible: false,
-    //   key: 'Under heavy development',
-    //   text: '🚧 The website is under heavy development 🚧'
-    // },
+    banner: {
+      dismissible: false,
+      key: 'Happy New Year 2023',
+      text: '🎉 Happy New Year 2023 🎉'
+    },
     search: {
       component: null
     },
