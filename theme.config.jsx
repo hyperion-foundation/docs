@@ -61,7 +61,7 @@ export default {
     },
     footer: {
      text: <span>
-      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • 0.1.0-pre-release.0
+      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • 1.0.0
      </span> 
     }
   }
