@@ -1,5 +1,5 @@
 # Hyperion Website
-The official website for Hyperion Foundation.
+Official website build for Hyperion Foundation (stable).
 
 ## What we use / Tech stack
 The current website is built using **Next.js**.
