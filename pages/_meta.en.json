@@ -10,12 +10,18 @@
     "project": "Community Projects",
     "--": {
       "type": "separator",
+      "title": "Policies"
+    },
+    "terms-of-use": "Terms of Use",
+    "privacy-policy": "Privacy Policy",
+    "---": {
+      "type": "separator",
       "title": "Discord"
     },
     "discord-rules": "Server Rules",
     "server-list": "Server List",
     "custom-channel": "Custom Channel",
-    "---": {
+    "----": {
       "type": "separator",
       "title": "Miscellaneous"
     },
