@@ -25,8 +25,8 @@
       "type": "separator",
       "title": "Miscellaneous"
     },
-    "theme": "Site Theme Color",
-    "change-logs": "Site Change Logs",
+    "theme": "Theme Color",
+    "change-logs": "Change Logs",
     "about": {
       "title": "About",
       "type": "page"
