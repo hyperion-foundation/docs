@@ -24,11 +24,11 @@ export default {
       { locale: 'en', text: 'English' },
       { locale: 'id', text: 'Indonesian' }
     ],
-    banner: {
-      dismissible: false,
-      key: 'Happy New Year 2023',
-      text: '🎉 Happy New Year 2023 🎉'
-    },
+    // banner: {
+    //   dismissible: false,
+    //   key: '',
+    //   text: ''
+    // },
     search: {
       component: null
     },
