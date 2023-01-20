@@ -12,8 +12,9 @@
       "type": "separator",
       "title": "Policies"
     },
-    "terms-of-use": "Terms of Use",
+    "terms": "Terms",
     "privacy-policy": "Privacy Policy",
+    "community-guidelines": "Community Guidelines",
     "---": {
       "type": "separator",
       "title": "Discord"
