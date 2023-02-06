@@ -3,6 +3,7 @@ import logo from './styles/style.js'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
+import Script from 'next/script'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -18,6 +19,8 @@ export default {
         <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
         <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <title>Hyperion Foundation</title>
+        <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
+        <Script async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542" crossOrigin="anonymous" />
       </>
     },
     i18n: [

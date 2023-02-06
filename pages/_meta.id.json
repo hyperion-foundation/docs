@@ -10,17 +10,24 @@
     "project": "Project Komunitas",
     "--": {
       "type": "separator",
+      "title": "Persyaratan"
+    },
+    "terms": "Syarat dan Ketentuan",
+    "privacy-policy": "Kebijakan Privasi",
+    "community-guidelines": "Panduan Komunitas",
+    "---": {
+      "type": "separator",
       "title": "Discord"
     },
     "discord-rules": "Peraturan Server",
     "server-list": "Daftar Server",
     "custom-channel": "Custom Channel",
-    "---": {
+    "----": {
       "type": "separator",
       "title": "Lain-lain"
     },
-    "theme": "Warna Tema Situs",
-    "change-logs": "Catatan Perubahan Situs",
+    "theme": "Warna Tema",
+    "change-logs": "Catatan Perubahan",
     "about": {
       "title": "Tentang",
       "type": "page"
