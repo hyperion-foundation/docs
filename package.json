@@ -1,6 +1,6 @@
 {
   "name": "hyperion-docs",
-  "version": "0.1.0-dev.10",
+  "version": "0.1.1-0",
   "private": true,
   "scripts": {
     "dev": "next dev",
