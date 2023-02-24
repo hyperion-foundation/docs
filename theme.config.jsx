@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-import logo from './styles/style.js'
+import logo from './src/js/style.js'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
