@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-before-interactive-script-outside-document */
 // eslint-disable-next-line import/no-anonymous-default-export
 import logo from './styles/style.js'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 import Script from 'next/script'
+import versionNumber from './package.json'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -20,7 +22,11 @@ export default {
         <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <title>Hyperion Foundation</title>
         <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
-        <Script async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542" crossOrigin="anonymous" />
+        <Script 
+        async="true" 
+        strategy="beforeInteractive"
+        crossOrigin="anonymous"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542" />
       </>
     },
     i18n: [
@@ -64,7 +70,7 @@ export default {
     },
     footer: {
      text: <span>
-      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Channel (Unstable)
+      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
      </span> 
     }
 }
