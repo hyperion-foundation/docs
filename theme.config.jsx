@@ -4,6 +4,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 import Script from 'next/script'
+import versionNumber from './package.json'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -20,7 +21,6 @@ export default {
         <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <title>Hyperion Foundation</title>
         <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542" crossorigin="anonymous" />
       </>
     },
     i18n: [
@@ -64,7 +64,7 @@ export default {
     },
     footer: {
      text: <span>
-      © {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • 1.0.0
+      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • {`v${versionNumber.version}`}
      </span> 
     }
   }
