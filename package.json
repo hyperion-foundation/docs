@@ -2,9 +2,6 @@
   "name": "hyperion-docs",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": "17.9.1"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
