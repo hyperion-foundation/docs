@@ -1,6 +1,0 @@
-# netlify.toml
-[[plugins]]
-package = "netlify-plugin-snyk"
-
-  [plugins.inputs]
-  failOnPreviews = true
