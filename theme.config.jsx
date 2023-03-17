@@ -20,7 +20,7 @@ export default {
         <meta property="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
         <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
         <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
-        <title>Hyperion Foundation</title>
+        <title>Hyperion Foundation (Dev)</title>
         <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
         <Script 
         async="true" 
