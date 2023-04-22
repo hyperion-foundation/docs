@@ -32,12 +32,6 @@
       "title": "Tentang",
       "type": "page"
     },
-    "blog": {
-      "title": "Blog",
-      "type": "page",
-      "href": "https://blog.hyperfoundation.xyz",
-      "newWindow": true
-    },
     "status": {
       "title": "Status",
       "type": "page",
