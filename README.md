@@ -9,4 +9,4 @@ We always welcome to everyone who wants to contribute our project. Keep in mind,
 
 ## Help
 As we said before, you should join our [Discord](https://discord.gg/B6dSRjs) server and then you can communicate with us if you need help with the current project. For any issue related to the project, you can create [an new issue](https://github.com/hyperion-foundation/landing/issues) but before you create an issue, please **make sure you search first** to ensure your current issue is already created by others or not.
-> Disclaimer : We don't use any other communication platform except Discord.
+> Disclaimer : We primarly use Discord as a main platform for communication.
