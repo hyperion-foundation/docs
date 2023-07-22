@@ -28,11 +28,12 @@ export default {
       { locale: 'en', text: 'English' },
       { locale: 'id', text: 'Indonesian' }
     ],
-    // banner: {
-    //   dismissible: false,
-    //   key: '',
-    //   text: ''
-    // },
+    banner: {
+      key: 'Teamspeak',
+      text: (
+        <a href="./project/teamspeak">✨ Our voice-chat platform has been expanded. Learn more →</a>
+      )
+    },
     search: {
       component: null
     },
