@@ -17,7 +17,7 @@ export default {
       const { frontMatter } = useConfig()
       // const title = useConfig().frontMatter
       return <>
-        <meta property="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
+        <meta property="og:url" content={`https://www.hyperfoundation.my.id${asPath}`} />
         <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
         <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <title>Hyperion Foundation</title>
@@ -31,7 +31,7 @@ export default {
     banner: {
       key: 'Teamspeak',
       text: (
-        <a href="./project/teamspeak">✨ Our voice-chat platform has been expanded. Learn more →</a>
+        <a href="/project/teamspeak">✨ Our voice-chat platform has been expanded. Learn more →</a>
       )
     },
     search: {
