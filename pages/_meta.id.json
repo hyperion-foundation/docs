@@ -32,6 +32,12 @@
       "title": "Tentang",
       "type": "page"
     },
+    "blog": {
+      "title": "Blog",
+      "type": "page",
+      "href": "https://blog.hypefoundation.my.id",
+      "newWindow": true
+    },
     "status": {
       "title": "Status",
       "type": "page",
