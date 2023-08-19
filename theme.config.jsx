@@ -25,8 +25,8 @@ export default {
       </>
     },
     i18n: [
-      { locale: 'en', text: 'English' },
-      { locale: 'id', text: 'Indonesian' }
+      { locale: 'en', text: '🇺🇸 English' },
+      { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
       key: 'Teamspeak',
@@ -34,9 +34,9 @@ export default {
         <a href="/project/teamspeak">✨ Our voice-chat platform has been expanded. Learn more →</a>
       )
     },
-    search: {
-      component: null
-    },
+    // search: {
+    //   component: null
+    // },
     project: {
       link: 'https://github.com/hyperion-foundation'
     },
@@ -65,8 +65,10 @@ export default {
       content: null
     },
     footer: {
-     text: <span>
-      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • {`v${versionNumber.version}`}
-     </span> 
+     text: (
+        <span>
+          © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.my.id">Hyperion Foundation</a> &mdash; {`v${versionNumber.version}`}
+        </span>
+    )
     }
   }
