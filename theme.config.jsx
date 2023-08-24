@@ -34,9 +34,9 @@ export default {
         <a href="/project/teamspeak">✨ Our voice-chat platform has been expanded. Learn more →</a>
       )
     },
-    // search: {
-    //   component: null
-    // },
+    search: {
+      placeholder: 'Search something...'
+    },
     project: {
       link: 'https://github.com/hyperion-foundation'
     },
@@ -52,7 +52,7 @@ export default {
         }
         return <> {title}</>
       },
-      defaultMenuCollapseLevel: 0
+      defaultMenuCollapseLevel: 1
     },
     navigation: {
       prev: true,
