@@ -5,9 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
+  "engines": {
+    "node": "=>16.14.0"
+  },
+  "author": "SleepNov4, Hyperion Dev Team, Hyperion Foundation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperion-foundation/landing.git"
+  },
+  "bugs": {
+    "url": "https://https://github.com/hyperion-foundation/landing/issues"
+  },
+  "homepage": "https://github.com/hyperion-foundation/landing#README",
   "dependencies": {
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
