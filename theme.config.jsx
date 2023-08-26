@@ -1,37 +1,44 @@
+/* eslint-disable import/no-anonymous-default-export */
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable @next/next/no-before-interactive-script-outside-document */
-// eslint-disable-next-line import/no-anonymous-default-export
 import logo from './src/js/logo.js'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
-import Script from 'next/script'
+import googleAnalyticsScript from './src/js/gtag.js'
+import googleAdSenseScript from './src/js/google-adsense.js'
 import versionNumber from './package.json'
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     logo: logo,
     head: () => {
-      // eslint-disable-next-line react-hooks/rules-of-hooks
       const { asPath } = useRouter()
-      // eslint-disable-next-line react-hooks/rules-of-hooks
       const { frontMatter } = useConfig()
-      // const title = useConfig().frontMatter
+
+      const hyperionProperty = {
+        title: "Hyperion Foundation (Dev)",
+        description: "A small community based on the internet dedicating for gaming and learning in programming & software developing."
+      }
+      const title = String(frontMatter.title || hyperionProperty.title)
+      const description = String(frontMatter.description ||  hyperionProperty.description)
+
+      const GoogleAnalytics = googleAnalyticsScript
+      const GoogleAdSense = googleAdSenseScript
+
       return <>
-        <meta property="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
-        <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
-        <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
-        <title>Hyperion Foundation (Dev)</title>
+        <meta property="og:url" content={`https://www.hyperfoundation.my.id${asPath}`} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="description" content={description} />
+        
         <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
-        <Script 
-        async="true" 
-        strategy="beforeInteractive"
-        crossOrigin="anonymous"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6163526907517542" />
+        <GoogleAnalytics />
+        <GoogleAdSense />
       </>
     },
     i18n: [
-      { locale: 'en', text: 'English' },
-      { locale: 'id', text: 'Indonesian' }
+      { locale: 'en', text: '🇺🇸 English' },
+      { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
       dismissible: false,
@@ -39,7 +46,7 @@ export default {
       text: '👨‍🔧 This website version is hosted for testing purposes only 👨‍🔧'
     },
     search: {
-      component: null
+      placeholder: 'Search something...'
     },
     project: {
       link: 'https://github.com/hyperion-foundation'
@@ -56,7 +63,7 @@ export default {
         }
         return <> {title}</>
       },
-      defaultMenuCollapseLevel: 0
+      defaultMenuCollapseLevel: 1
     },
     navigation: {
       prev: true,
@@ -70,7 +77,7 @@ export default {
     },
     footer: {
      text: <span>
-      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
+      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.my.id">Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
      </span> 
     }
 }
