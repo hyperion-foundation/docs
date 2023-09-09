@@ -17,10 +17,14 @@ export default {
       const { frontMatter } = useConfig()
       // const title = useConfig().frontMatter
       return <>
-        <meta property="og:url" content={`https://www.hyperfoundation.my.id${asPath}`} />
-        <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
-        <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="og:url" content={`https://www.hyperfoundation.my.id${asPath}`} />
+        <meta name="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
+        <meta name="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+        <meta name="description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+
         <title>Hyperion Foundation</title>
+
         <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
       </>
     },
