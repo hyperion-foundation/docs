@@ -2,7 +2,7 @@
 Shaii merupakan edisi yang berbeda dari Shaii Classic. Shaii dibuat hanya untuk server Discord Hyperion Foundation saja (non-public Discord bot).
 
 ### Versi Project/Bot
-`v1.4.0`
+`v1.5.0`
 
 ## Tujuan Project
 Shaii dibuat dengan tujuan hanya untuk server Discord Hyperion Foundation saja. Shaii tidak berbeda dengan Shaii Classic, hanya penamaan projectnya saja yang berbeda.
@@ -14,3 +14,27 @@ Shaii bukanlah sebuah Discord bot publik seperti **Shaii Classic**, jadi anda ti
 Ketik perintah `s!help` atau `s!commands` di channel **#bot-commands** (Hyperion Foundation Discord server) untuk melihat daftar perintah Shaii. 
 
 Fitur **Slash Command** di Shaii sudah tersedia walaupun masih ada beberapa perintah yang belum sempurna untuk digunakan. Ketik `/help` di channel **#bot-commands** (Hyperion Foundation Discord server) untuk melihat daftar perintah Shaii.
+
+## Informasi Perintah
+Setiap perintah Shaii memiliki beberapa informasi. Informasi ini seharusnya cukup bagi Anda untuk mempelajari perintahnya. Pada bagian ini, kami menempatkan informasi perintah yang terperinci dan paling sederhana.
+
+- **Command Description**
+  - Informasi ini menampilkan deskripsi perintah yang terperinci dan paling sederhana.
+- **Aliases**
+  - Informasi ini menampilkan alias perintah. Alias perintah hanya tersedia untuk jenis perintah **Legacy Command**.
+- **Command Avalability**
+  - Informasi ini menampilkan ketersediaan perintah.
+      - Jika ketersediaan **Ya**, berarti perintah tersedia untuk **Legacy Command** & **Slash Command**.
+      - Jika ketersediaannya **Ya (Partial)**, berarti perintah tersedia sebagian. Ini hanya tersedia untuk **Legacy Command** atau **Slash Command**.
+      - Jika ketersediaan **Tidak** berarti perintah tidak tersedia atau tidak dapat digunakan. Bisa jadi sedang dalam pengembangan, bug, dll.
+- **Command Type**
+  - Informasi ini menampilkan jenis perintah. Bisa saja **Legacy Command** atau **Slash Command**. **Command Type** bergantung pada **Command Availability**.
+- **Voice Channel Requirement**
+  - Informasi ini ditampilkan jika perintah ini memerlukan koneksi saluran suara pengguna.
+    - Jika persyaratannya **Required**, pengguna harus berada di saluran suara terlebih dahulu sebelum menjalankan perintah.
+    - Jika persyaratannya **Not Required**, pengguna tidak perlu memasukkan saluran suara apa pun untuk menjalankan perintah.
+- **Example Usage**
+  - Informasi ini menampilkan cara menggunakan perintah.
+    - Untuk **Legacy Command**, awalan/prefix perintah dimulai dengan awalan/prefix bot (`s!`).
+    - Untuk **Perintah Slash**, awalan/prefix perintah dimulai dengan `/` (garis miring). 
+    Awalan/prefix `/` (garis miring) adalah awalan/prefix default untuk jenis perintah ini, karena awalan/prefix ini merupakan awalan/prefix asli/murni untuk [Discord Application Commands](https://discord.com/developers/docs/interactions/application-commands).
