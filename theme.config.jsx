@@ -18,7 +18,7 @@ export default {
       // const title = useConfig().frontMatter
       return <>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="og:url" content={`https://www.hyperfoundation.my.id${asPath}`} />
+        <meta name="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
         <meta name="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
         <meta name="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <meta name="description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
@@ -35,7 +35,7 @@ export default {
     banner: {
       key: 'Teamspeak',
       text: (
-        <a href="/project/teamspeak">✨ Our voice-chat platform has been expanded. Learn more →</a>
+        <a href="https://hyperionfoundation.statuspage.io/incidents/j05gv849vlps">⚠️ Our domain has been changed. Read more →</a>
       )
     },
     search: {
@@ -71,7 +71,7 @@ export default {
     footer: {
      text: (
         <span>
-          © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.my.id">Hyperion Foundation</a> &mdash; {`v${versionNumber.version}`}
+          © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> &mdash; {`v${versionNumber.version}`}
         </span>
     )
     }
