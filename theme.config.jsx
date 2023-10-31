@@ -26,7 +26,7 @@ export default {
       const GoogleAdSense = googleAdSenseScript
 
       return <>
-        <meta property="og:url" content={`https://www.hyperfoundation.my.id${asPath}`} />
+        <meta property="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="description" content={description} />
@@ -79,7 +79,7 @@ export default {
     },
     footer: {
      text: <span>
-      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.my.id">Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
+      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
      </span> 
     }
 }
