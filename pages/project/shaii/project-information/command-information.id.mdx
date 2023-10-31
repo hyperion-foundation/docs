@@ -1,0 +1,23 @@
+## Informasi Perintah
+Setiap perintah Shaii memiliki beberapa informasi. Informasi ini seharusnya cukup bagi Anda untuk mempelajari perintah tersebut. Di bagian ini, kami memberikan informasi perintah yang terperinci dan paling sederhana.
+
+- **Command Description**
+  - Informasi ini menampilkan deskripsi perintah yang terperinci dan paling sederhana.
+- **Aliases**
+  - Informasi ini menampilkan alias perintah. Alias perintah hanya tersedia untuk jenis perintah **Legacy Command**.
+- **Command Availability**
+  - Informasi ini menampilkan ketersediaan perintah.
+      - Jika ketersediaan **Ya**, berarti perintah tersebut tersedia untuk **Legacy Command** maupun **Slash Command**.
+      - Jika ketersediaannya **Ya (Partial)**, berarti perintah tersedia sebagian. Bisa saja hanya tersedia untuk **Legacy Command** atau **Slash Command**.
+      - Jika ketersediaan **Tidak** berarti perintah tidak tersedia atau tidak dapat digunakan. Bisa jadi sedang dalam pengembangan, bug, dll.
+- **Command Type**
+  - Informasi ini menampilkan jenis perintah. Bisa saja hanya **Legacy Command** atau **Slash Command**. **Command Type** bergantung pada **Command Availability**.
+- **Voice Channel Requirement**
+  - Informasi ini ditampilkan jika perintah ini memerlukan koneksi saluran suara pengguna.
+    - Jika persyaratannya **Required**, pengguna harus berada di saluran suara terlebih dahulu sebelum menjalankan perintah.
+    - Jika persyaratannya **Not Required**, pengguna tidak perlu memasukkan saluran suara apa pun untuk menjalankan perintah.
+- **Example Usage**
+  - Informasi ini menampilkan cara menggunakan perintah.
+    - Untuk **Legacy Command**, awalan/prefix perintah dimulai dengan awalan/prefix bot (`s!`).
+    - Untuk **Slash Command**, awalan/prefix perintah dimulai dengan `/` (garis miring). 
+    Awalan/prefix `/` (garis miring) adalah awalan/prefix default untuk jenis perintah ini, karena awalan/prefix ini merupakan awalan/prefix asli/murni untuk [Perintah Aplikasi Discord](https://discord.com/developers/docs/interactions/application-commands).
