@@ -15,7 +15,7 @@ export default {
       const { asPath } = useRouter()
       if (asPath !== '/') {
         return {
-          titleTemplate: '%s - SWR'
+          titleTemplate: '%s - Hyperion Foundation'
         }
       }
     },
@@ -58,6 +58,7 @@ export default {
     project: {
       link: 'https://github.com/hyperion-foundation'
     },
+    docsRepositoryBase: 'https://github.com/hyperion-foundation/landing',
     chat: {
       link: 'https://discord.gg/4U4k6bW'
     },
@@ -71,6 +72,9 @@ export default {
         return <> {title}</>
       },
       defaultMenuCollapseLevel: 1
+    },
+    toc: {
+      backToTop: true
     },
     navigation: {
       prev: true,
