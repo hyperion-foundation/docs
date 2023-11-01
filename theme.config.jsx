@@ -22,6 +22,7 @@ export default {
         <meta name="og:title" content={frontMatter.title || 'Hyperion Foundation'} />
         <meta name="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <meta name="description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+        <meta name="google-adsense-account" content="ca-pub-6163526907517542" />
 
         <title>Hyperion Foundation</title>
 
