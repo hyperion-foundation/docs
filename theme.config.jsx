@@ -5,8 +5,6 @@ import logo from './src/js/logo.js'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
-import googleAnalyticsScript from './src/js/gtag.js'
-import googleAdSenseScript from './src/js/google-adsense.js'
 import versionNumber from './package.json'
 
 export default {
@@ -15,27 +13,17 @@ export default {
       const { asPath } = useRouter()
       const { frontMatter } = useConfig()
 
-      const hyperionProperty = {
-        title: "Hyperion Foundation (Dev)",
-        description: "A small community based on the internet dedicating for gaming and learning in programming & software developing."
-      }
-      const title = String(frontMatter.title || hyperionProperty.title)
-      const description = String(frontMatter.description ||  hyperionProperty.description)
-
-      const GoogleAnalytics = googleAnalyticsScript
-      const GoogleAdSense = googleAdSenseScript
-
       return <>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-adsense-account" content="ca-pub-6163526907517542" />
         <meta property="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="description" content={description} />
+        <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation (Dev)'} />
+        <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+        <meta property="description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
 
-        <title>{title}</title>
+        <title>Hyperion Foundation (Dev)</title>
         
         <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
-        <GoogleAnalytics />
-        <GoogleAdSense />
       </>
     },
     i18n: [
