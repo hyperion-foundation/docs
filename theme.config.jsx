@@ -25,6 +25,17 @@ export default {
         <title>Hyperion Foundation (Dev)</title>
         
         <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
+
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2X01ZJH1LG" />
+        <Script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+          dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+
+          gtag('config', 'G-2X01ZJH1LG');
+        </Script>
       </>
       )
     },
