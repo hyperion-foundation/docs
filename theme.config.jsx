@@ -13,18 +13,20 @@ export default {
       const { asPath } = useRouter()
       const { frontMatter } = useConfig()
 
-      return <>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="google-adsense-account" content="ca-pub-6163526907517542" />
-        <meta property="og:url" content={`https://www.hyperfoundation.xyz${asPath}`} />
-        <meta property="og:title" content={frontMatter.title || 'Hyperion Foundation (Dev)'} />
-        <meta property="og:description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
-        <meta property="description" content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+      return ( 
+      <>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta name='google-adsense-account' content='ca-pub-6163526907517542' />
+        <meta name='og:url' content={`https://www.hyperfoundation.xyz${asPath}`} />
+        <meta name='og:title' content={frontMatter.title || 'Hyperion Foundation (Dev)'} />
+        <meta name='og:description' content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+        <meta name='description' content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
 
         <title>Hyperion Foundation (Dev)</title>
         
-        <link rel="icon" href="/hyperion-favicon.png" type="image/png" />
+        <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
       </>
+      )
     },
     i18n: [
       { locale: 'en', text: '🇺🇸 English' },
@@ -67,7 +69,7 @@ export default {
     },
     footer: {
      text: <span>
-      © 2022 - {new Date().getFullYear()} <a href="https://www.hyperfoundation.xyz">Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
+      © 2022 - {new Date().getFullYear()} <a href='https://www.hyperfoundation.xyz'>Hyperion Foundation</a> • Dev Version ({`v${versionNumber.version}`})
      </span> 
     }
 }
