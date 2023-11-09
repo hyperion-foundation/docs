@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/inline-script-id */
 /* eslint-disable import/no-anonymous-default-export */
 /* eslint-disable @next/next/no-before-interactive-script-outside-document */
 /* eslint-disable import/no-anonymous-default-export */
@@ -43,7 +44,7 @@ export default {
           <Script 
           src='https://fundingchoicesmessages.google.com/i/pub-6163526907517542?ers=1' 
           nonce='TbOKQcNbpUaI4kAzWwmw7A' />
-          
+
           <Script 
           nonce='TbOKQcNbpUaI4kAzWwmw7A'>
             (function() {function signalGooglefcPresent() {
@@ -57,8 +58,9 @@ export default {
                   }
               }
             }
-            signalGooglefcPresent();
-            })();</Script>
+          }
+          signalGooglefcPresent();
+          )();</Script>
         </>
       )
     },
