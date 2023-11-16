@@ -3,6 +3,7 @@
 /* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import logo from './src/js/logo.js'
 import React from 'react'
+import Script from 'next/script.js'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 import versionNumber from './package.json'
@@ -27,15 +28,6 @@ export default {
         <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2X01ZJH1LG" />
-        <Script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-          dataLayer.push(arguments);
-          }
-          gtag('js', new Date());
-
-          gtag('config', 'G-2X01ZJH1LG');
-        </Script>
       </>
       )
     },
