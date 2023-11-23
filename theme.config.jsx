@@ -69,9 +69,9 @@ export default {
       { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
-      key: 'Teamspeak',
+      key: 'TeamSpeak',
       text: (
-        <a href='https://hyperionfoundation.statuspage.io/incidents/j05gv849vlps'>⚠️ Our domain has been changed. Read more →</a>
+        <a href='https://hyperionfoundation.statuspage.io/incidents/gp5f9th0fnyx'>⚠️ TeamSpeak 3 Server temporary shutdown. Read more →</a>
       )
     },
     search: {
