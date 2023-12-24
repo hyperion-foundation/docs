@@ -69,10 +69,8 @@ export default {
       { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
-      key: 'TeamSpeak',
-      text: (
-        <a href='https://hyperionfoundation.statuspage.io/incidents/gp5f9th0fnyx'>⚠️ TeamSpeak 3 Server temporary shutdown. Read more →</a>
-      )
+      key: 'MerryXmas2023',
+      text: 'Merry Christmas 2023 🎄'
     },
     search: {
       placeholder: 'Search something...'
