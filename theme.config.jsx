@@ -69,8 +69,10 @@ export default {
       { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
-      key: 'MerryXmas2023',
-      text: 'Merry Christmas 2023 🎄'
+      key: 'MinecraftTutorial',
+      text: (
+        <a href='http://blog.hyperfoundation.xyz'>We&apos;ve post a blog about hosting a Minecraft server. Read more →</a>
+      )
     },
     search: {
       placeholder: 'Search something...'
