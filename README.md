@@ -1,8 +1,8 @@
 # Hyperion Website
-Official website build for Hyperion Foundation (stable).
+The official website build for Hyperion Foundation (stable build).
 
 ## What we use / Tech stack
-The current website is built using **Next.js**.
+The current website is built using [Next.js](https://nextjs.org) & [Nextra](https://nextra.site).
 
 ## Contributing
 We always welcome to everyone who wants to contribute our project. Keep in mind, if you want to contribute in this project, please join this [Discord](https://discord.gg/B6dSRjs) server first, then give us a ping in **#general** channel and also tell us what will you do before we accept you to be our contributor of the project. We want the landing site made as simple as possible. If you have any design mock-ups, don't hesitate to send it to us, we'd like to see any creativity you have but don't be sad if your design got rejected by us.
