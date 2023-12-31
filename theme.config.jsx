@@ -69,10 +69,9 @@ export default {
       { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
-      key: 'MinecraftTutorial',
-      text: (
-        <a href='http://blog.hyperfoundation.xyz'>We&apos;ve post a blog about hosting a Minecraft server. Read more →</a>
-      )
+      dismissible: false,
+      key: 'HappyNewYear2024',
+      text: 'Happy New Year 2024! 🥳 🎉'
     },
     search: {
       placeholder: 'Search something...'
