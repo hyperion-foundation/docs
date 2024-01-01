@@ -4,7 +4,7 @@
   "description": "The landing website of Hyperion Foundation.",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },

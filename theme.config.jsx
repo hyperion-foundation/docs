@@ -5,9 +5,9 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import logo from './src/js/logo.js'
 import React from 'react'
+import Script from 'next/script.js'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
-import Script from 'next/script'
 import versionNumber from './package.json'
 
 export default {
