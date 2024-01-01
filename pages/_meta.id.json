@@ -21,7 +21,8 @@
     },
     "discord-rules": "Peraturan Server",
     "server-list": "Daftar Server",
-    "custom-channel": "Custom Channel",
+    "discord-custom-channel": "Custom Channel",
+    "discord-best-member-award": "Best Member Award",
     "----": {
       "type": "separator",
       "title": "Lain-lain"

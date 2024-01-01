@@ -21,7 +21,8 @@
     },
     "discord-rules": "Server Rules",
     "server-list": "Server List",
-    "custom-channel": "Custom Channel",
+    "discord-custom-channel": "Custom Channel",
+    "discord-best-member-award": "Best Member Award",
     "----": {
       "type": "separator",
       "title": "Miscellaneous"
