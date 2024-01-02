@@ -69,9 +69,11 @@ export default {
       { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
     banner: {
-      dismissible: false,
-      key: 'HappyNewYear2024',
-      text: 'Happy New Year 2024! 🥳 🎉'
+      dismissible: true,
+      key: 'StatuspageUpdate',
+      text: (
+        <a href='https://blog.hyperfoundation.xyz/statuspage-update'>Our Statuspage has been updated. Learn more →</a>
+      )
     },
     search: {
       placeholder: 'Search something...'
