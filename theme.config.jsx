@@ -68,13 +68,13 @@ export default {
       { locale: 'en', text: '🇺🇸 English' },
       { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
     ],
-    banner: {
-      dismissible: true,
-      key: 'StatuspageUpdate',
-      text: (
-        <a href='https://blog.hyperfoundation.xyz/statuspage-update'>Our Statuspage has been updated. Learn more →</a>
-      )
-    },
+    // banner: {
+    //   dismissible: true,
+    //   key: 'StatuspageUpdate',
+    //   text: (
+    //     <a href='https://blog.hyperfoundation.xyz/statuspage-update'>Our Statuspage has been updated. Learn more →</a>
+    //   )
+    // },
     search: {
       placeholder: 'Search something...'
     },
