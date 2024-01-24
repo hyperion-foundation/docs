@@ -8,16 +8,18 @@ Each Shaii command has several information. These information should be sufficie
 - **Command Availability**
   - This information displays the availability of the command.
       - If the availability is **Yes**, which means the command is available for **Legacy Command** & **Slash Command**.
-      - If the availability is **Yes (Partial)**, which means the command is partially available. It can be available for **Legacy Command** or **Slash Command** only.
+      - ~~If the availability is **Yes (Partial)**, which means the command is partially available. It can be available for **Legacy Command** or **Slash Command** only.~~ \*
       - If the availability is **No**, which means the command is not available or cannot be used. It can be under development, bugs, etc.
 - **Command Type**
-  - This information displays the type of the command. It can be only **Legacy Command** or **Slash Command**. **Command Type** is dependant on **Command Availability**.
+  - ~~This information displays the type of the command. It can be only **Legacy Command** or **Slash Command**. **Command Type** is dependant on **Command Availability**.~~ \*
 - **Voice Channel Requirement**
   - This information displays if this command requires user voice channel connection.
     - If the requirement is **Required**, the user must be in a voice channel at first before executing the command.
     - If the requirement is **Not Required**, the user do not have to enter any voice channel for executing the command.
 - **Example Usage**
   - This information displays how to use the command.
-    - For **Legacy Command**, the command prefix starts with the bot prefix (`s!`).
+    - ~~For **Legacy Command**, the command prefix starts with the bot prefix (`s!`).~~ \*
     - For **Slash Command**, the command prefix starts with the `/` (slash). 
     `/` (slash) prefix is the default prefix for this command type, because the prefix is the native prefix for [Discord Application Commands](https://discord.com/developers/docs/interactions/application-commands).
+
+\* *We've dropped the support for **Legacy Command** feature. This information is no longer relevant.*
