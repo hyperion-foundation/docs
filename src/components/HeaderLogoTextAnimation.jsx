@@ -24,7 +24,7 @@ const gradient = keyframes`
 `;
 const AnimatedGradientText = styled.span`
   animation: ${gradient} 5s ease-in-out infinite;
-  background: linear-gradient(to right, #ee9ca7, #ffdde1, #2193b0, #6dd5ed);
+  background: linear-gradient(to right, #feefe2, #fee6d2, #fba254, #f98115);
   background-size: 300%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
