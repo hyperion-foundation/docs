@@ -9,7 +9,6 @@ import React from 'react'
 import Script from 'next/script.js'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
-import versionNumber from './package.json'
 
 export default {
   logo: HeaderTextLogoAnimation,
@@ -33,11 +32,11 @@ export default {
         <meta name='description' content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <meta name='google-adsense-account' content='ca-pub-6163526907517542' />
 
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css' rel='stylesheet' />
+        <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
+
         <title>Hyperion Foundation</title>
 
-        <link rel='icon' href='/hyperion-favicon.png' type='image/png' />
-        <link href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css' rel='stylesheet' />
-        
         <Script 
         id='adsbygoogle-init'
         strategy='afterInteractive'
