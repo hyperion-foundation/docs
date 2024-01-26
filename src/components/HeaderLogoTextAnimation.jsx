@@ -2,14 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-export default function TextGradientComponent() {
-  return (
-    <>
-      <AnimatedGradientText>Hyperion Foundation</AnimatedGradientText>
-    </>
-  );
-}
-
 const gradient = keyframes`
 {
 0% {
@@ -30,3 +22,11 @@ const AnimatedGradientText = styled.span`
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 `;
+
+export function HeaderTextLogoAnimation() {
+  return (
+    <>
+      <AnimatedGradientText>Hyperion Foundation</AnimatedGradientText>
+    </>
+  );
+}
