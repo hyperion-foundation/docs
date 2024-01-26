@@ -24,11 +24,9 @@ const gradient = keyframes`
 `;
 const AnimatedGradientText = styled.span`
   animation: ${gradient} 8s ease-in-out infinite;
-  background: linear-gradient(to right, #feefe2, #fee6d2, #fba254, #f98115);
+  background: linear-gradient(to left, #7400B8, #6930C3, #5E60CE, #5390D9, #4EA8DE, #48BFE3, #56CFE1, #64DFDF, #72EFDD, #80FFDB);
   background-size: 300%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 `;
-
-// background: linear-gradient(to left, #7400B8, #6930C3, #5E60CE, #5390D9, #4EA8DE, #48BFE3, #56CFE1, #64DFDF, #72EFDD, #80FFDB);
