@@ -1,14 +1,11 @@
 {
   "name": "hyperion-docs",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
-  },
-  "engines": {
-    "node": "18.x"
   },
   "author": "SleepNov4, Hyperion Dev Team, Hyperion Foundation",
   "repository": {
