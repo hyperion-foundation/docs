@@ -58,3 +58,28 @@ Note: There are several old changes that cannot be listed on this page.
 ### Version `2.1.2` - May 20th, 2024
 - [Changed]
   - Small message content update (Slash Command update).
+
+### Version `2.1.3` - July 13th, 2024
+- [Added]
+  - Added built-in cooldown system on each commands.
+
+- [Changed]
+  - Update `/version` command output message.
+  - Update `/help` command output message.
+  - Update bot presence status.
+
+### Version `2.2.0` - August 3rd, 2024
+- [Fixed]
+  - Fixed the `/lyrics` command (API issue).
+
+### Version `2.3.0` - October 22nd, 2024
+- [Added]
+  - Added pagination system for the `/queue` command.
+  > *The `/queue` command now has a pagination system, which means that if the song queue exceeds 10 queued songs (11 or more), then the queued songs above 10 will be displayed on the next page.*
+
+- [Changed]
+  - The repeat/loop mode changer is now using [Buttons](https://discord.com/developers/docs/interactions/message-components#component-object-component-types) (before text input).
+  > *We decided to change the repeat/loop mode interaction with Buttons for easier interaction.*
+
+- [Fixed]
+  - Fixed when the bot doesn't automatically disconnect from a connected voice channel if the channel is empty.
