@@ -16,7 +16,7 @@ export function Footer() {
             </div>
         </div>
         <div className='sm:flex sm:items-center sm:justify-between'>
-          <span className='text-xs text-gray-500 sm:text-center dark:text-gray-400'>&copy; 2022 - {new Date().getFullYear()} <Link href='https://www.hyperfoundation.xyz' className='hover:underline'>Hyperion Foundation</Link>. All rights reserved.</span>
+          <span className='text-xs text-gray-500 sm:text-center dark:text-gray-400'>&copy; 2022 - {new Date().getFullYear()} <Link href='https://www.hyperfoundation.my.id' className='hover:underline'>Hyperion Foundation</Link>. All rights reserved.</span>
           <span className='text-xs text-gray-500 sm:text-center dark:text-gray-400'><Link href='https://github.com/hyperion-foundation/landing' className='hover:underline'>Stable Version (v{versionNumber.version})</Link></span>
         </div>
       </div>
