@@ -9,6 +9,7 @@ import React from 'react'
 import Script from 'next/script.js'
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
+import Link from 'next/link'
 
 export default {
   logo: HeaderTextLogoAnimation,
@@ -25,11 +26,13 @@ export default {
     const { frontMatter } = useConfig()
     return (
       <>
+        <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='og:url' content={`https://www.hyperfoundation.xyz${asPath}`} />
+        <meta name='og:url' content={`https://www.hyperfoundation.my.id${asPath}`} />
         <meta name='og:title' content={frontMatter.title || 'Hyperion Foundation'} />
         <meta name='og:description' content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
         <meta name='description' content={frontMatter.description || 'A small community based on the internet dedicating for gaming and learning in programming & software developing.'} />
+        <meta name='keywords' content='gaming community, tech community, coding, discord, teamspeak, shaii, rin-chan, pandora, hyperion foundation, hyperion dev team, hyperion, hyperfoundation' />
         <meta name='google-adsense-account' content='ca-pub-6163526907517542' />
 
         <link href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css' rel='stylesheet' />
@@ -70,13 +73,12 @@ export default {
     { locale: 'en', text: '🇺🇸 English' },
     { locale: 'id', text: '🇮🇩 Bahasa Indonesia' }
   ],
-  // banner: {
-  //   dismissible: true,
-  //   key: 'StatuspageUpdate',
-  //   text: (
-  //     <a href='https://blog.hyperfoundation.xyz/statuspage-update'>Our Statuspage has been updated. Learn more →</a>
-  //   )
-  // },
+  banner: {
+    dismissible: false,
+    key: 'DomainNameUpdate',
+    text: (
+      <Link href='https://hyperionfoundation.instatus.com/cm2q2rdzr001knhjwqno5av0t' target='_blank'>📢 Our domain name has been changed. Learn more →</Link>    )
+  },
   search: {
     placeholder: 'Search something...'
   },
