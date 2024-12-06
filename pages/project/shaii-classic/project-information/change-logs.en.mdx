@@ -1,0 +1,56 @@
+## Shaii Classic Change Logs
+This is where we put a list of changes we made to Shaii Classic.
+> Important: We don't put any changes if those changes are too minor.
+
+### Version `0.1.0-beta` - November 17, 2022
+- Initial Public Beta Release.
+
+### Version `1.0.0` - January 14, 2023
+- Initial public release.
+- [Added]
+  - Added Spotify feature.
+    > *We've added a new function so users can request any song/music/playlist from Spotify by copying the song/music/playlist link/URL.*
+
+### Version `1.1.0` - December 3, 2023
+- [Added]
+  - Added the [Slash Command](https://discord.com/developers/docs/interactions/application-commands) feature.
+    > *We've added the Slash Command feature. The purpose of this feature is to interact with the bot more natively in the Discord client.*
+
+### Version `2.0.0-beta.1` - December , 2024
+This is our first `2.0.0` Beta release for Shaii Classic. On this version, we've made a lot changes and improvements to the bot. Here's the list of changes we made:
+- [Added]
+  - Added 3 new commands, `guildinfo`, `serverusage` & `supportus`.
+  - Added built-in cooldown system on each command.
+    > *Every commands now have their own cooldown timer. To see the cooldown timer on each command, you can use the `/commandinfo` command.*
+  - Added [Application Commands Localization](https://discord.com/developers/docs/interactions/application-commands#localization).
+    > *We've added localization for all commands. Currently, we only support 2 languages, English & Bahasa Indonesia and currently, Bahasa Indonesia is not yet available, because Discord still does not support Bahasa Indonesia for all Discord clients. What you need to do is just wait until Discord add the language to the client. Once they added the language, you can change the language on your Discord client to Bahasa Indonesia (User Settings -> Language).*
+  - Added Google Form survey link on the `finish` event.
+    > *We've added a Google Form survey link on the `finish` event. When the bot has finished playing all the songs, the survey form link will appear. We added this to gather our user's ratings & feedback. It is important for us to analyze if there are any bugs when our users use the bot.*
+
+- [Changed]
+  - The bot will immediately disconnect from empty voice channel (no users).
+    > *From the previous version, the bot will disconnect from a voice channel for few seconds later after the channel is empty.*
+  - The `commandinfo` command has been improved.
+    > *We've made some changes to the `/commandinfo` command, which we added new several command information for each commands (e.g. Command Cooldown, Localization, etc).*
+  - The `help` command has been updated.
+  - The `join` command has been improved.
+    > *We've added conditional statement to prevent a user trying to call the bot if the bot is already connected to a voice channel.*
+  - The `jump` command is now available and has been improved.
+  - The `leave` command has been improved.
+    > *We've added conditional statement to prevent a user trying to disconnect the bot where the user is not in the same voice channel as the bot.*
+  - The `lyrics` command is not available on Shaii Classic.
+    > *We've decided to make this command only available on Shaii Classic Premium (due to server limitation).*
+  - The `nowplaying` command has been changed and improved.
+    > *Now, The `nowplaying` command is required user voice channel connection.*
+  - The `play` command has been changed.
+    > *We've changed the `/play` command behavior. Now, if the bot is not in a voice channel but the user is already in a voice channel, the bot will not join the voice channel to which the user is currently connected. The bot must be called at the first time by using the `/join` command and then the user can request a song/music by using the `/play` command. This is to prevent a user from trying to request a song/music where the user is not in the same voice channel as the bot.*
+  - The `queue` command has been changed and improved.
+    > *We've made some changes to the `/queue` command. Now, the `/queue` command is required user voice channel connection. We also added "pagination" system. Here's how the pagination system works: If there are 11 or more songs/music in the queue, the bot will only show 10 songs/music in the first page of queue list, and the queued songs/music above 10 will be displayed on the next page. Use the provided "Buttons" by the bot to use the pagination system. The provided "Buttons" will expire in `1 minute` if there is no interaction.*
+  - The `repeat` command is no longer available on Shaii Classic.
+    > *We've decided to make this command only available on Shaii Classic Premium (due to server limitation).*
+  - The `pause`, `resume`, `skip` & `stop` commands have been changed and improved.
+    > *We've added conditional statement to prevent a user trying to use this command when the user is not in the same voice channel as the bot.*
+
+- [Removed]
+  - Removed the **Legacy Command** feature permanently.
+    > *We've decided to remove this feature permanently, because maintaining both (Legacy & Slash Commands) features is very difficult and very time-consuming, so we decided to keep the Slash Command feature available and become an interaction feature between bots and users by default.*

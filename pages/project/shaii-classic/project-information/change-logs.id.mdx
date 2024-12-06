@@ -1,0 +1,56 @@
+## Catatan Perubahan Shaii Classic
+Di sinilah kami menaruh daftar perubahan yang kami buat pada Shaii Classic.
+> Penting: Kami tidak menaruh perubahan apa pun jika perubahan tersebut terlalu kecil.
+
+### Versi `0.1.0-beta` - 17 November 2022
+- Rilis Beta Publik Awal.
+
+### Versi `1.0.0` - 14 Januari 2023
+- Rilis publik awal.
+  - [Added]
+    - Menambahkan fitur Spotify.
+    > *Kami telah menambahkan fungsi baru sehingga pengguna dapat meminta lagu/musik/daftar putar apa pun dari Spotify dengan menyalin tautan/URL lagu/musik/daftar putar.*
+
+### Versi `1.1.0` - 3 Desember 2023
+  - [Added]
+    - Menambahkan fitur [Perintah Slash](https://discord.com/developers/docs/interactions/application-commands).
+    > *Kami telah menambahkan fitur Perintah Slash. Tujuan fitur ini adalah untuk berinteraksi dengan bot secara lebih asli di klien Discord.*
+
+### Versi `2.0.0-beta.1` - Desember 2024
+Ini adalah rilis Beta `2.0.0` pertama kami untuk Shaii Classic. Pada versi ini, kami telah membuat banyak perubahan dan penyempurnaan pada bot. Berikut adalah daftar perubahan yang kami buat:
+  - [Added]
+    - Menambahkan 3 perintah baru, `guildinfo`, `serverusage` & `supportus`.
+    - Menambahkan sistem cooldown bawaan pada setiap perintah.
+      > *Setiap perintah kini memiliki timer cooldown sendiri. Untuk melihat timer cooldown pada setiap perintah, Anda dapat menggunakan perintah `/commandinfo`.*
+    - Menambahkan [Lokalisasi Perintah Aplikasi](https://discord.com/developers/docs/interactions/application-commands#localization).
+      > *Kami telah menambahkan lokalisasi untuk semua perintah. Saat ini, kami hanya mendukung 2 bahasa, Bahasa Inggris & Bahasa Indonesia dan saat ini, Bahasa Indonesia belum tersedia, karena Discord masih belum mendukung Bahasa Indonesia untuk semua klien Discord. Yang perlu Anda lakukan adalah menunggu hingga Discord menambahkan bahasa tersebut ke klien. Setelah mereka menambahkan bahasa, Anda dapat mengubah bahasa pada klien Discord Anda ke Bahasa Indonesia (Pengaturan Pengguna -> Bahasa).*
+    - Menambahkan tautan survei Formulir Google pada acara `finish`.
+      > *Kami telah menambahkan tautan survei Formulir Google pada acara `finish`. Ketika bot telah selesai memainkan semua lagu, tautan formulir survei akan muncul. Kami menambahkan ini untuk mengumpulkan peringkat & umpan balik pengguna kami. Penting bagi kami untuk menganalisis apakah ada bug saat pengguna kami menggunakan bot.*
+
+  - [Changed]
+    - Bot akan segera terputus dari saluran suara yang kosong (tidak ada pengguna).
+      > *Dari versi sebelumnya, bot akan terputus dari saluran suara selama beberapa detik kemudian setelah saluran tersebut kosong.*
+    - Perintah `commandinfo` telah ditingkatkan.
+      > *Kami telah membuat beberapa perubahan pada perintah `/commandinfo`, yang mana kami menambahkan beberapa informasi perintah baru untuk setiap perintah (misalnya Command Cooldown, Localization, dll).*
+    - Perintah `help` telah diperbarui.
+    - Perintah `join` telah ditingkatkan.
+      > *Kami telah menambahkan pernyataan kondisional untuk mencegah pengguna mencoba memanggil bot jika bot telah terhubung ke saluran suara.*
+    - Perintah `jump` kini tersedia dan telah ditingkatkan.
+    - Perintah `leave` telah ditingkatkan.
+      > *Kami telah menambahkan pernyataan kondisional untuk mencegah pengguna mencoba memutuskan sambungan bot saat pengguna tidak berada di saluran suara yang sama dengan bot.*
+    - Perintah `lyrics` tidak tersedia di Shaii Classic.
+      > *Kami telah memutuskan untuk membuat perintah ini hanya tersedia di Shaii Classic Premium (karena keterbatasan server).*
+    - Perintah `nowplaying` telah diubah dan ditingkatkan.
+      > *Sekarang, perintah `nowplaying` memerlukan koneksi saluran suara pengguna.*
+    - Perintah `play` telah diubah.
+      > *Kami telah mengubah perilaku perintah `/play`. Sekarang, jika bot tidak berada di saluran suara tetapi pengguna sudah berada di saluran suara, bot tidak akan bergabung dengan saluran suara tempat pengguna saat ini terhubung. Bot harus dipanggil pertama kali dengan menggunakan perintah `/join` dan kemudian pengguna dapat meminta lagu/musik dengan menggunakan perintah `/play`. Ini untuk mencegah pengguna mencoba meminta lagu/musik saat pengguna tidak berada di saluran suara yang sama dengan bot.*
+    - Perintah `queue` telah diubah dan ditingkatkan.
+      > *Kami telah membuat beberapa perubahan pada perintah `/queue`. Sekarang, perintah `/queue` memerlukan koneksi saluran suara pengguna. Kami juga menambahkan sistem "pagination". Berikut cara kerja sistem pagination: Jika ada 11 atau lebih lagu/musik dalam antrean, bot hanya akan menampilkan 10 lagu/musik di halaman pertama daftar antrean, dan lagu/musik yang diantrekan di atas 10 akan ditampilkan di halaman berikutnya. Gunakan "Tombol" yang disediakan oleh bot untuk menggunakan sistem pagination. "Tombol" yang disediakan akan kedaluwarsa dalam `1 menit` jika tidak ada interaksi.*
+    - Perintah `repeat` tidak lagi tersedia di Shaii Classic.
+      > *Kami telah memutuskan untuk membuat perintah ini hanya tersedia di Shaii Classic Premium (karena keterbatasan server).*
+    - Perintah `pause`, `resume`, `skip` & `stop` telah diubah dan ditingkatkan.
+      > *Kami telah menambahkan pernyataan kondisional untuk mencegah pengguna mencoba menggunakan perintah ini saat pengguna tidak berada di saluran suara yang sama dengan bot.*
+
+  - [Removed]
+    - Menghapus fitur **Legacy Command** secara permanen.
+    > *Kami memutuskan untuk menghapus fitur ini secara permanen, karena mempertahankan kedua fitur (Legacy & Slash Command) sangat sulit dan sangat memakan waktu, jadi kami memutuskan untuk tetap menyediakan fitur Slash Command dan menjadi fitur interaksi antara bot dan pengguna secara default.*
