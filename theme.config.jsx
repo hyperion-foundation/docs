@@ -75,9 +75,9 @@ export default {
   ],
   banner: {
     dismissible: false,
-    key: 'DomainNameUpdate',
+    key: 'ShaiiClassicRelease',
     text: (
-      <Link href='https://hyperionfoundation.instatus.com/cm2q2rdzr001knhjwqno5av0t' target='_blank'>📢 Our domain name has been changed. Learn more →</Link>    )
+      <Link href='/project/shaii-classic/project-overview' target='_blank'>📢 We have re-released Shaii Classic. Learn more →</Link>    )
   },
   search: {
     placeholder: 'Search something...'
